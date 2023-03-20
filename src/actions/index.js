@@ -7,7 +7,7 @@
     return async function(dispatch){
         try{
             // var json = await axios.get('http://localhost:3001/recipes')
-            var json = await axios.get(`${URL}`/recipes)
+            var json = await axios.get(`${URL}/recipes`)
             // .then(response => { console.log("Response: ", response)})
             .catch(error => {console.log("Error: ", error)})
             return dispatch({
