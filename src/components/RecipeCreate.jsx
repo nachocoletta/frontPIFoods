@@ -274,7 +274,7 @@ function validate(input){
                 </div>
               
                 <button type='submit' 
-                // className="botonCrearReceta"
+                className="botonCrearReceta"
                  disabled={disable}>Crear Receta</button>
             </form>
         </div>
