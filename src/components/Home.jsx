@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 import Card from "./Card";
 import Paginado from "./Paginado";
 import "./Home.css";
-
+// hola
 export default function Home() {
   const [recipe, setRecipe] = useState("");
   const [error, setError] = useState("");
